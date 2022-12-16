@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
-    "port": "/dev/tty.usbmodem1101",
-    "sketch": "6차시/test/test.ino",
+    "port": "/dev/tty.usbmodem11101",
+    "sketch": "6차시/LED_PWM_RGB_blight/LED_PWM_RGB_blight.ino",
     "programmer": "arduino:avrisp"
 }
