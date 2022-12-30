@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
     "port": "/dev/tty.usbmodem11101",
-    "sketch": "6차시/LED_PWM_RGB_blight/LED_PWM_RGB_blight.ino",
+    "sketch": "7차시/Sonar_Serial/Sonar_Serial.ino",
     "programmer": "arduino:avrisp"
 }
