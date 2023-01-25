@@ -21,6 +21,7 @@ void loop()
 	// 이때 /2는 왕복한 시간이여서 편도로 변환해주는 역할, 아래는 cm단위로 변환입니다.
 	long distance = ((340 * duration) / 10000) / 2;
 
-  Serial.println(distance); //  시리얼 통신으로 거리값 송신 
+  	Serial.println(distance); //  시리얼 통신으로 거리값 송신 
+	Serial.print("cm"); //  시리얼 통신으로 'cm'라는 문장 송신
 	delay(100); //  100 밀리초 (100/1000초) 동안 기다리기 
 }
