@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
-    "port": "/dev/tty.usbserial-1110",
-    "sketch": "8차시/CDS_LED/CDS_LED.ino",
+    "port": "/dev/tty.usbserial-1120",
+    "sketch": "8차시/2_CDS_LED/2_CDS_LED.ino",
     "programmer": "arduino:avrisp"
 }
