@@ -1,6 +1,6 @@
 {
     "board": "arduino:avr:uno",
-    "port": "/dev/tty.usbmodem11101",
-    "sketch": "6차시/LED_50/LED_50.ino",
+    "port": "/dev/tty.usbserial-1110",
+    "sketch": "8차시/CDS_LED/CDS_LED.ino",
     "programmer": "arduino:avrisp"
 }
