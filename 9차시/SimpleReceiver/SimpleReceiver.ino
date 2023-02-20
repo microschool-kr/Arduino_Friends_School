@@ -11,6 +11,7 @@
 #include "PinDefinitionsAndMore.h"  // 컴퓨터에 연결된 아두이노에 따라 입력받을 Data핀을 결정하는 라이브러리 입니다
 #include <IRremote.hpp>  // 적외선 센서 기능을 담은 사용자 라이브러리입니다.
 
+
 void setup() {
   // 여기에 코드를 입력하면 한 번만 실행합니다.
 
@@ -20,6 +21,7 @@ void setup() {
   Serial.print(F("수신이 가능한 적외선 신호 프로토콜: "));     //시리얼 모니터에 프로토콜 안내문구를 출력합니다.
   printActiveIRProtocols(&Serial);                             //시리얼 모니터에 프로토콜 정보를 출력합니다.
   Serial.println(F("\nData pin번호는 " STR(IR_RECEIVE_PIN)));  //시리얼 모니터에 연결된 적외선 Data 핀 번호를 출력합니다.
+}
 
 
 void loop() {
