@@ -3,13 +3,11 @@
  이 예제는 Arduino-IRremote 을 기반으로 만들었습니다. https://github.com/Arduino-IRremote/Arduino-IRremote.
  ************************************************************************************
  */
-
-#define DECODE_NEC                  // 적외선센서 프로토콜로 NEC로 사용할 것을 정의하는 코드입니다.
-
 #include <Arduino.h>                // 아두이노의 기본적인 기능을 담은 표준 라이브러리입니다.
 #include "PinDefinitionsAndMore.h"  // 컴퓨터에 연결된 아두이노에 따라 입력받을 Data핀을 결정하는 라이브러리 입니다
 #include <IRremote.hpp>             // 적외선 센서 기능을 담은 사용자 라이브러리입니다.
 
+#define DECODE_NEC                  // 적외선센서 프로토콜로 NEC로 사용할 것을 정의하는 코드입니다.
 
 void setup() {
   // 여기에 코드를 입력하면 한 번만 실행합니다.
